@@ -215,6 +215,42 @@ body li a{
     transform: translateY(-50%);
 }
 
+.integrantes{
+    display:flex;
+    justify-content: space-around;
+    margin: 2rem;
+    flex-wrap: wrap;
+}
+
+.imagen-integrante{
+    width:90%;
+    height: auto;
+    border-radius: 50%;
+    margin: 1rem;
+}
+
+.integrante h1{
+    font-size: 100%;
+}
+ 
+.integrante{
+    display: flex;
+    flex-direction: column;
+    background-color: #414833;
+    border-radius: 4rem;
+    margin: 1%;
+    width: 20%;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+a{
+    text-decoration:none;
+    color: #fff;
+    font-size: 90%;
+    margin-bottom: 10%;
+}
+
 @media (max-width: 600px) {
 
     .circle-container {
