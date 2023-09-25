@@ -271,3 +271,19 @@ body li a{
     }
 
 }
+
+
+
+.footer {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background-color: #333D29;
+    font-size:large;
+    color: #C2C5AA;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    position: fixed;
+  }
