@@ -248,7 +248,7 @@ body li a {
 }
 
 .integrante h1 {
-  font-size: 100%;
+  font-size: 1.5rem; /* Adjust according to your preference */
 }
 
 .integrante {
@@ -267,6 +267,14 @@ body li a {
   color: #fff;
   font-size: 90%;
   margin-bottom: 10%;
+  font-size: 1.2rem;
+}
+
+@media (max-width: 768px) {
+  .integrante {
+    width: 100%; /* Make each integrante item take the full width on smaller screens */
+    margin: 1rem 0; /* Adjust the margin for stacked items */
+  }
 }
 
 .subtituloIzquierda {
