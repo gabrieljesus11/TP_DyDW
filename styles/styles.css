@@ -33,6 +33,11 @@ header {
   max-width: 100%;
 }
 
+.imagen-container{
+  display: flex;
+  justify-content: center;
+}
+
 .menu {
   display: flex;
   align-items: flex-end;
