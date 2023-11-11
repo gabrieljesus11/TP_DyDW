@@ -332,6 +332,61 @@ body li a {
   position: fixed;
 }
 
+
+/*Definiciones de footer, colores, tamaños y tipo de letra */
+footer {
+  /*display: flex;*/
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+  margin: 0;
+  padding: 0 20px;
+  background-color: #a4ac86;
+  font-size: large;
+  color: #333D29;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  position: fixed;
+}
+
+footer p {
+  color: #333D29;
+}
+
+@media (max-width: 600px) {
+  footer p {
+    font-size: small;
+  }
+}
+
+/*Definiciones para imagen en footer que se agreguen*/
+
+.footer-logo-container {
+  width: 60px;
+  height: 60px;
+  background-color: #1C769C;
+  overflow: hidden;
+}
+
+.footer-logo-container img {
+  display: block;
+  max-width: 90%;
+  margin-left: 10%;
+}
+
+.footer-imagen-container img {
+  display: block;
+  max-width: 100%;
+}
+
+.footer-imagen-container{
+  display: flex;
+  justify-content: center;
+}
+
+
+
+
 @media (min-width: 576px) {
   .container,
   .container-sm {
